@@ -1,10 +1,152 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <title>Home<title>
+	
+    <title></title>
+    <link rel="stylesheet" href="https://kendo.cdn.telerik.com/2020.1.406/styles/kendo.default-v2.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script src="https://kendo.cdn.telerik.com/2020.1.406/js/jquery.min.js"></script>
+    <script src="https://kendo.cdn.telerik.com/2020.1.406/js/kendo.all.min.js"></script>
+	
+	<link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1>Hello world</h1>
+
+	<main>
+		<h1>sheepover's villager finder</h1>
+    	<div id="villagers"></div>
+		
+    	<script>
+        $(document).ready(function () {
+            $("#villagers").kendoGrid({
+                dataSource: {
+					
+ 
+				    transport: {
+				      read: {
+				        url: "api/villagers.json",
+				        dataType: "json", // "jsonp" is required for cross-domain requests; use "json" for same-domain requests
+				      }
+				    },
+                	schema: {
+                    	model: {
+                        	id: "Id",
+                        	fields: {
+                            	Id: { type: "number" },
+                            	name_en: { from: "name.name_en" },
+                            	species: { field: "species" },
+                            	personality: { field: "personality" },
+                            	gender: { field: "gender" },
+								tier: { field: "tier" }
+							}
+                        }
+                    }
+                },
+                filterable: true,
+                sortable: true,
+                
+				columns: [{
+                    template: "<img src='images/#: name_en #_NH_Icon.png'>",
+                    field: "name_en",
+                    title: "Icon",
+                    width: 155,
+                    filterable: false
+                },
+					{
+                    field: "name_en",
+                    title: "Name"
+                },
+					{
+                    field: "species",
+                    title: "Species",
+                    filterable: {
+						multi: true,
+						dataSource: [
+							{ species: "Alligator" },
+							{ species: "Anteater" },
+							{ species: "Bear" },
+							{ species: "Bird" },
+							{ species: "Bull" },
+							{ species: "Cat" },
+							{ species: "Chicken"},
+							{ species: "Cow"},
+							{ species: "Cub"},
+							{ species: "Deer"},
+							{ species: "Dog"},
+							{ species: "Duck"},
+							{ species: "Eagle"},
+							{ species: "Elephant"},
+							{ species: "Frog"},
+							{ species: "Goat"},
+							{ species: "Gorilla"},
+							{ species: "Hamster"},
+							{ species: "Hippo"},
+							{ species: "Horse"},
+							{ species: "Kangaroo"},
+							{ species: "Koala"},
+							{ species: "Lion"},
+							{ species: "Monkey"},
+							{ species: "Mouse"},
+							{ species: "Octopus"},
+							{ species: "Ostrich"},
+							{ species: "Penguin"},
+							{ species: "Pig"},
+							{ species: "Rabbit"},
+							{ species: "Rhino"},
+							{ species: "Sheep"},
+							{ species: "Squirrel"},
+							{ species: "Tiger"},
+							{ species: "Wolf"}
+						] 
+					}
+                },
+					{
+                    field: "personality",
+                    title: "Personality",
+                    filterable: {
+						multi: true,
+						dataSource: [
+							{ personality: "Lazy" },
+							{ personality: "Normal" },
+							{ personality: "Peppy" },
+							{ personality: "Jock" },
+							{ personality: "Cranky" },
+							{ personality: "Snooty" },
+							{ personality: "Uchi" },
+							{ personality: "Smug" }
+						]					
+					}
+                },
+					{
+                    field: "gender",
+                    title: "Gender",
+                    filterable: {
+						multi: true,
+						dataSource: [
+							{ gender: "Male" },
+							{ gender: "Female" }
+						]					
+					},
+                },
+					{
+                    field: "tier",
+                    title: "Tier",
+					filterable: false,
+                    width: 100,
+                }],
+				
+			    dataBound: function(e){
+			           var multifilter = e.sender.thead.find("th[data-field='name']>a");
+			           if(multifilter){
+			             $("span[data-field='name']").first().replaceWith(multifilter);
+			             multifilter.wrap("<span class='k-button k-button-icon k-dropdown-wrap'></span>");
+			           }
+			         }
+            });
+        });
+    	</script>
+	</main>
+
 </body>
 </html>
