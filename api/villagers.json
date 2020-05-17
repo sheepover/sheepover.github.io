@@ -2343,7 +2343,6 @@
 		"species": "Deer",
 		"gender": "Male",
 		"catch-phrase": "kablang",
-		"tier":"2",
 		"tier":"3"
 	},
 	{
@@ -2873,7 +2872,7 @@
 		"species": "Dog",
 		"gender": "Female",
 		"catch-phrase": "whatwhat",
-		"tier":"2",
+		"tier":"2"
 	},
 	{
 		"id": 126,
