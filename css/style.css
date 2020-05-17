@@ -33,3 +33,5 @@
     a.k-grid-filter:focus, input[type="checkbox"]{ outline:0; }
 	
 	main { max-width:960px;  margin:0 auto; }
+	
+	#villagers td:last-child img { max-width:150px; }
