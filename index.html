@@ -60,13 +60,15 @@
 					{
                     field: "name_en",
                     title: "Name",
-                        filterable: {
-                            extra: false
-						}
+                    filterable: {
+                    	extra: false
+					},
+					width: 140 
                 },
 					{
                     field: "species",
                     title: "Species",
+					width: 140,
                     filterable: {
 						multi: true,
 						dataSource: [
@@ -111,6 +113,7 @@
 					{
                     field: "personality",
                     title: "Personality",
+					width: 140,
                     filterable: {
 						multi: true,
 						dataSource: [
@@ -128,6 +131,7 @@
 					{
                     field: "gender",
                     title: "Gender",
+					width: 120,
                     filterable: {
 						multi: true,
 						dataSource: [
@@ -140,13 +144,14 @@
                     field: "tier",
                     title: "Tier",
 					filterable: false,
-                    width: 100,
+                    width: 70,
                 },{
                     template: "<a href='/images/house/#: name_en #.png' target='_blank'><img src='images/house/#: name_en #.png'></a>",
                     field: "name_en",
                     title: "House",
-                    width: 180,
+                    width: 175,
                     filterable: false,
+					sortable: false
                 }],
 				
 			    dataBound: function(e){

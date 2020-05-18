@@ -1,6 +1,9 @@
 
-	html { font-size: 14px; font-family: 'Karla', sans-serif; }
-
+	html { font-size: 14px; font-family: 'Karla', sans-serif; box-sizing:border-box; }
+	*, *:before, *:after { box-sizing:inherit; }
+	
+	body { margin:20px; }
+	
     .customer-photo {
         display: inline-block;
         width: 32px;
@@ -32,6 +35,20 @@
 
     a.k-grid-filter:focus, input[type="checkbox"]{ outline:0; }
 	
-	main { max-width:960px;  margin:0 auto; }
+	main { max-width:1000px;  margin:0 auto; }
 	
-	#villagers td:last-child img { max-width:150px; }
+	#villagers td:first-child img { display:block; margin:0 auto; }
+	#villagers td:last-child img { max-width:150px; display:block; margin:0 auto; }
+	
+	
+	/*kendo grid*/
+	
+	.k-grid-header .k-header>.k-link>.k-icon.k-i-sort-asc-sm, 
+	.k-grid-header .k-header>.k-link>.k-icon.k-i-sort-desc-sm { margin-left:2px; }
+	
+	.k-grid .k-grid-header-wrap, 
+	.k-grid table { box-sizing:border-box; }
+	
+	.k-button.k-button-icon .k-icon, 
+	.k-grid-filter .k-icon, 
+	.k-header .k-icon { padding:0; }
