@@ -24,8 +24,9 @@
         padding-left: 3px;
     }
 	
-	h1 { margin:30px 0; color:#ffa9aa; }
-	
+	h1 { margin:30px 0; color:#ffa9aa; text-align:center; }
+	h2 { color:#777; text-transform:uppercase; font-size:18px; }
+				
 	.k-button-icon,
 	.k-split-button-arrow { padding:0; }
 
@@ -35,13 +36,15 @@
 
     a.k-grid-filter:focus, input[type="checkbox"]{ outline:0; }
 	
-	main { max-width:1000px;  margin:0 auto; }
+	main { max-width:1100px;  margin:0 auto; }
 	
-	#villagers td:first-child img { display:block; margin:0 auto; }
-	#villagers td:last-child img { max-width:150px; display:block; margin:0 auto; }
+	.k-grid td:first-child img { display:block; margin:0 auto; }
+	.k-grid td[data-field="tier"] +td img { max-width:150px; display:block; margin:0 auto; }
 	
 	
 	/*kendo grid*/
+	
+	#bank { margin-bottom:40px; }
 	
 	.k-grid-header .k-header>.k-link>.k-icon.k-i-sort-asc-sm, 
 	.k-grid-header .k-header>.k-link>.k-icon.k-i-sort-desc-sm { margin-left:2px; }
@@ -52,3 +55,26 @@
 	.k-button.k-button-icon .k-icon, 
 	.k-grid-filter .k-icon, 
 	.k-header .k-icon { padding:0; }
+	
+	
+	.k-grid .k-button { font-size:0; cursor:pointer; position:relative; appearance:none; -webkit-appearance:none; background:#ffa9aa; border:none; color:#fff; border-radius:15px; width:40px; height:40px; display:block; margin:0 auto; transition: all .2s ease; }
+	.k-grid .k-button:hover { background:#ff9193; }
+	.k-grid .k-button:focus { outline:none; }
+	.k-grid .k-button:after { position:absolute; top:0; left:0; opacity:1; display:block; font-size:18px; font-family:"Font Awesome 5 Free"; font-weight:900; line-height:42px; }
+	#villagers .k-button:after { content:"\f08d"; }
+	#bank .k-button:after { content:"\f00d"; line-height:40px; }
+	
+	.empty { padding:10px; text-align:center; width:100%; color:#999; font-style:italic; }
+	
+	
+	/* todo list 
+	
+	- grid headers (pinned villagers, all villagrs) 
+	- grid condensing optionss
+	- pin/unpin buttons
+	- male/female color coding
+	- cookies
+	- reordering on pinned grid
+	- sorting on pinned grid
+	
+	*/

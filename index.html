@@ -10,7 +10,8 @@
     <script src="https://kendo.cdn.telerik.com/2020.1.406/js/kendo.all.min.js"></script>
 	
 	<link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
-	
+	<link href="fontawesome/css/all.css" rel="stylesheet">
+
 	<link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
 	
 </head>
@@ -18,10 +19,16 @@
 
 	<main>
 		<h1>sheepover's villager finder</h1>
+		
+		<h2>pinned villagers</h2>
+		<div id="bank"></div>
+		
+		<h2>all villagers</h2>
     	<div id="villagers"></div>
 		
     	<script>
         $(document).ready(function () {
+			
             $("#villagers").kendoGrid({
                 dataSource: {
 					
@@ -152,9 +159,14 @@
                     width: 175,
                     filterable: false,
 					sortable: false
+                },{
+					command: { text: "Pin", click: Pin },
+			    	headerAttributes: { style:"text-align: center" },
+                    title: "Pin",
+                    width: 70
                 }],
 				
-			    dataBound: function(e){
+			    dataBound: function(e){					
 			           var multifilter = e.sender.thead.find("th[data-field='name']>a");
 			           if(multifilter){
 			             $("span[data-field='name']").first().replaceWith(multifilter);
@@ -162,6 +174,95 @@
 			           }
 			         }
             });
+			
+			
+		    var dataItem = null;
+			
+		    $("#bank").kendoGrid({
+		      dataSource: {
+		        data: [],
+		        schema: {
+		          model: {
+                        	id: "Id",
+                        	fields: {
+                            	Id: { type: "number" },
+                            	name_en: { from: "name.name_en" },
+                            	species: { field: "species" },
+                            	personality: { field: "personality" },
+                            	gender: { field: "gender" },
+								tier: { field: "tier" }
+							}
+		          }
+		        }
+		      },
+			  noRecords: {
+				  template: "<div class='empty'>No pinned villagers</div>"
+			  },
+			  sortable: true,
+		      //dataBound: insertNoRecordsRow, // Required to handle the transfer row to an empty Grid scenario.
+		      columns: [{
+                    template: "<img src='images/#: name_en #_NH_Icon.png'>",
+                    field: "name_en",
+                    title: "Icon",
+                    width: 155,
+				  	sortable: false
+                },
+					{
+                    field: "name_en",
+                    title: "Name",
+					width: 140 
+                },
+					{
+                    field: "species",
+                    title: "Species",
+					width: 140
+                },
+					{
+                    field: "personality",
+                    title: "Personality",
+					width: 140
+                },
+					{
+                    field: "gender",
+                    title: "Gender",
+					width: 120
+                },
+					{
+                    field: "tier",
+                    title: "Tier",
+                    width: 70
+                },{
+                    template: "<a href='/images/house/#: name_en #.png' target='_blank'><img src='images/house/#: name_en #.png'></a>",
+                    field: "name_en",
+                    title: "House",
+                    width: 175,
+				  	sortable: false
+                },{
+					command: { text: "Unpin", click:Unpin },
+			    	headerAttributes: { style:"text-align: center" },
+                    title: "Unpin",
+                    width: 70,
+				  	sortable: false
+                }],
+			  
+		    });
+			
+			
+			var fromGrid = $("#villagers").data("kendoGrid");
+			var toGrid = $("#bank").data("kendoGrid");
+
+
+            function Pin(e) {				
+		        toGrid.dataSource.add(fromGrid.dataSource.getByUid($(e.currentTarget).closest("tr").attr('data-uid')));
+		        fromGrid.removeRow($(e.currentTarget).closest("tr"));
+            }
+
+            function Unpin(e) {				
+		        fromGrid.dataSource.add(toGrid.dataSource.getByUid($(e.currentTarget).closest("tr").attr('data-uid')));
+		        toGrid.removeRow($(e.currentTarget).closest("tr"));
+				toGrid.refresh();
+            }
+			
         });
     	</script>
 	</main>
