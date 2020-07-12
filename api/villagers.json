@@ -1308,7 +1308,7 @@
 		"species": "Cat",
 		"gender": "Male",
 		"catch-phrase": "myawn",
-		"tier":"5s"
+		"tier":"5"
 	},
 	{
 		"id": 51,
@@ -6597,7 +6597,7 @@
 		"birthday": "1/6",
 		"species": "Eagle",
 		"gender": "Male",
-		"catch-phrase" "wingo",
+		"catch-phrase" : "wingo",
 		"tier":"5"
 	},
 	{

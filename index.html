@@ -15,10 +15,12 @@
 	<link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
 	
 </head>
-<body>
+<body class="night">
 
 	<main>
 		<h1>sheepover's villager finder</h1>
+		
+		<a href="javascript:void(0)" class="btn btn-night"></a>
 		
 		<h2>pinned villagers</h2>
 		<a href="javascript:void(0)" class="btn btn-condense">Condense</a>
@@ -288,7 +290,15 @@
 		    });
 		  
 			
+			//nightmode
 			
+			$('.btn-night').click(function(){
+				if( $('body').hasClass('night') ) {
+					$('body').removeClass('night');
+				} else {
+					$('body').addClass('night');
+				}
+			});
 			
 			
         });
