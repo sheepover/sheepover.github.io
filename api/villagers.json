@@ -20,7 +20,7 @@
 		"species": "Alligator",
 		"gender": "Male",
 		"catch-phrase": "it'same",
-		"tier":"5"
+		"tier":"4"
 	},
 	{
 		"id": 95,
@@ -66,7 +66,7 @@
 		"species": "Alligator",
 		"gender": "Male",
 		"catch-phrase": "munchie",
-		"tier":"5"
+		"tier":"6"
 	},
 	{
 		"id": 97,
@@ -112,7 +112,7 @@
 		"species": "Alligator",
 		"gender": "Male",
 		"catch-phrase": "hoo-rah",
-		"tier":"6"
+		"tier":"5"
 	},
 	{
 		"id": 99,
@@ -250,7 +250,7 @@
 		"species": "Anteater",
 		"gender": "Female",
 		"catch-phrase": "snorty",
-		"tier":"5"
+		"tier":"4"
 	},
 	{
 		"id": 5,
@@ -342,7 +342,7 @@
 		"species": "Bear",
 		"gender": "Male",
 		"catch-phrase": "grooof",
-		"tier":"5"
+		"tier":"4"
 	},
 	{
 		"id": 9,
@@ -365,7 +365,7 @@
 		"species": "Bear",
 		"gender": "Female",
 		"catch-phrase": "wah",
-		"tier":"6"
+		"tier":"5"
 	},
 	{
 		"id": 10,
@@ -480,7 +480,7 @@
 		"species": "Bear",
 		"gender": "Female",
 		"catch-phrase": "twinkles",
-		"tier":"4"
+		"tier":"5"
 	},
 	{
 		"id": 15,
@@ -664,7 +664,7 @@
 		"species": "Bear",
 		"gender": "Female",
 		"catch-phrase": "sundae",
-		"tier":"5"
+		"tier":"4"
 	},
 	{
 		"id": 23,
@@ -687,7 +687,7 @@
 		"species": "Bird",
 		"gender": "Male",
 		"catch-phrase": "heeeeeyy",
-		"tier":"5"
+		"tier":"6"
 	},
 	{
 		"id": 24,
@@ -825,7 +825,7 @@
 		"species": "Bird",
 		"gender": "Male",
 		"catch-phrase": "ayeaye",
-		"tier":"6"
+		"tier":"5"
 	},
 	{
 		"id": 30,
@@ -871,7 +871,7 @@
 		"species": "Bird",
 		"gender": "Male",
 		"catch-phrase": "yafeel",
-		"tier":"6"
+		"tier":"5"
 	},
 	{
 		"id": 32,
@@ -940,7 +940,7 @@
 		"species": "Bird",
 		"gender": "Male",
 		"catch-phrase": "crunch",
-		"tier":"5"
+		"tier":"6"
 	},
 	{
 		"id": 35,
@@ -1147,7 +1147,7 @@
 		"species": "Cat",
 		"gender": "Female",
 		"catch-phrase": "mew",
-		"tier":"3"
+		"tier":"4"
 	},
 	{
 		"id": 44,
@@ -1308,7 +1308,7 @@
 		"species": "Cat",
 		"gender": "Male",
 		"catch-phrase": "myawn",
-		"tier":"4"
+		"tier":"5s"
 	},
 	{
 		"id": 51,
@@ -1400,7 +1400,7 @@
 		"species": "Cat",
 		"gender": "Female",
 		"catch-phrase": "me-WOW",
-		"tier":"5"
+		"tier":"6"
 	},
 	{
 		"id": 55,
@@ -1515,7 +1515,7 @@
 		"species": "Cat",
 		"gender": "Female",
 		"catch-phrase": "mimimi",
-		"tier":"4"
+		"tier":"5"
 	},
 	{
 		"id": 60,
@@ -1584,7 +1584,7 @@
 		"species": "Cat",
 		"gender": "Male",
 		"catch-phrase": "mush",
-		"tier":"5"
+		"tier":"4"
 	},
 	{
 		"id": 63,
@@ -1653,7 +1653,7 @@
 		"species": "Cub",
 		"gender": "Female",
 		"catch-phrase": "peach",
-		"tier":"2"
+		"tier":"3"
 	},
 	{
 		"id": 66,
@@ -1722,7 +1722,7 @@
 		"species": "Cub",
 		"gender": "Male",
 		"catch-phrase": "pudgy",
-		"tier":"5"
+		"tier":"6"
 	},
 	{
 		"id": 69,
@@ -1814,7 +1814,7 @@
 		"species": "Cub",
 		"gender": "Male",
 		"catch-phrase": "malarkey",
-		"tier":"6"
+		"tier":"5"
 	},
  	{
 		"id": 73,
@@ -1883,7 +1883,7 @@
 		"species": "Cub",
 		"gender": "Female",
 		"catch-phrase": "rainbow",
-		"tier":"4"
+		"tier":"3"
 	},
 	{
 		"id": 76,
@@ -1952,7 +1952,7 @@
 		"species": "Cub",
 		"gender": "Male",
 		"catch-phrase": "cubby",
-		"tier":"5"
+		"tier":"4"
 	},
 	{
 		"id": 79,
@@ -2090,7 +2090,7 @@
 		"species": "Chicken",
 		"gender": "Female",
 		"catch-phrase": "beaker",
-		"tier":"5"
+		"tier":"6"
 	},
 	{
 		"id": 85,
@@ -2159,7 +2159,7 @@
 		"species": "Chicken",
 		"gender": "Male",
 		"catch-phrase": "cluckling",
-		"tier":"5"
+		"tier":"6"
 	},
 	{
 		"id": 88,
@@ -2228,7 +2228,7 @@
 		"species": "Cow",
 		"gender": "Female",
 		"catch-phrase": "how-now",
-		"tier":"6"
+		"tier":"5"
 	},
 	{
 		"id": 91,
@@ -2389,7 +2389,7 @@
 		"species": "Deer",
 		"gender": "Male",
 		"catch-phrase": "gruff",
-		"tier":"5"
+		"tier":"4"
 	},
 	{
 		"id": 105,
@@ -2688,7 +2688,7 @@
 		"species": "Dog",
 		"gender": "Male",
 		"catch-phrase": "wuh",
-		"tier":"4"
+		"tier":"5"
 	},
 	{
 		"id": 118,
@@ -2757,7 +2757,7 @@
 		"species": "Dog",
 		"gender": "Female",
 		"catch-phrase": "yippee",
-		"tier":"4"
+		"tier":"5"
 	},
 	{
 		"id": 121,
@@ -2849,7 +2849,7 @@
 		"species": "Dog",
 		"gender": "Male",
 		"catch-phrase": "alrighty",
-		"tier":"6"
+		"tier":"5"
 	},
 	{
 		"id": 125,
@@ -2941,7 +2941,7 @@
 		"species": "Duck",
 		"gender": "Male",
 		"catch-phrase": "bleeeeeck",
-		"tier":"5"
+		"tier":"4"
 	},
 	{
 		"id": 129,
@@ -3033,7 +3033,7 @@
 		"species": "Duck",
 		"gender": "Female",
 		"catch-phrase": "rahrah",
-		"tier":"5"
+		"tier":"6"
 	},
 	{
 		"id": 133,
@@ -3148,7 +3148,7 @@
 		"species": "Duck",
 		"gender": "Male",
 		"catch-phrase": "zipzoom",
-		"tier":"3"
+		"tier":"4"
 	},
 	{
 		"id": 138,
@@ -3171,7 +3171,7 @@
 		"species": "Duck",
 		"gender": "Male",
 		"catch-phrase": "quaa",
-		"tier":"6"
+		"tier":"5"
 	},
 	{
 		"id": 139,
@@ -3286,7 +3286,7 @@
 		"species": "Duck",
 		"gender": "Male",
 		"catch-phrase": "ridukulous",
-		"tier":"6"
+		"tier":"5"
 	},
 	{
 		"id": 144,
@@ -3332,7 +3332,7 @@
 		"species": "Elephant",
 		"gender": "Male",
 		"catch-phrase": "woo-oo",
-		"tier":"5"
+		"tier":"4"
 	},
 	{
 		"id": 146,
@@ -3424,7 +3424,7 @@
 		"species": "Elephant",
 		"gender": "Male",
 		"catch-phrase": "pal",
-		"tier":"6"
+		"tier":"5"
 	},
 	{
 		"id": 150,
@@ -3585,7 +3585,7 @@
 		"species": "Frog",
 		"gender": "Male",
 		"catch-phrase": "zzrrbbitt",
-		"tier":"5s"
+		"tier":"4"
 	},
 	{
 		"id": 157,
@@ -3677,7 +3677,7 @@
 		"species": "Frog",
 		"gender": "Male",
 		"catch-phrase": "grr-ribbit",
-		"tier":"6"
+		"tier":"5"
 	},
 	{
 		"id": 161,
@@ -3700,7 +3700,7 @@
 		"species": "Frog",
 		"gender": "Female",
 		"catch-phrase": "splish",
-		"tier":"4"
+		"tier":"5"
 	},
 	{
 		"id": 162,
@@ -3723,7 +3723,7 @@
 		"species": "Frog",
 		"gender": "Male",
 		"catch-phrase": "nee-deep",
-		"tier":"4"
+		"tier":"5"
 	},
 	{
 		"id": 163,
@@ -3861,7 +3861,7 @@
 		"species": "Frog",
 		"gender": "Male",
 		"catch-phrase": "aaach—",
-		"tier":"4"
+		"tier":"5"
 	},
 	{
 		"id": 169,
@@ -4022,7 +4022,7 @@
 		"species": "Goat",
 		"gender": "Male",
 		"catch-phrase": "dagnaabit",
-		"tier":"5"
+		"tier":"4"
 	},
 	{
 		"id": 176,
@@ -4298,7 +4298,7 @@
 		"species": "Gorilla",
 		"gender": "Male",
 		"catch-phrase": "ayyyeee",
-		"tier":"6"
+		"tier":"5"
 	},
 	{
 		"id": 188,
@@ -4505,7 +4505,7 @@
 		"species": "Hamster",
 		"gender": "Female",
 		"catch-phrase": "powderpuff",
-		"tier":"2"
+		"tier":"3"
 	},
 	{
 		"id": 197,
@@ -4620,7 +4620,7 @@
 		"species": "Hippo",
 		"gender": "Male",
 		"catch-phrase": "squirt",
-		"tier":"4"
+		"tier":"5"
 	},
 	{
 		"id": 202,
@@ -4919,7 +4919,7 @@
 		"species": "Horse",
 		"gender": "Female",
 		"catch-phrase": "nipper",
-		"tier":"6"
+		"tier":"5"
 	},
 	{
 		"id": 215,
@@ -4988,7 +4988,7 @@
 		"species": "Horse",
 		"gender": "Male",
 		"catch-phrase": "haaay",
-		"tier":"4"
+		"tier":"5"
 	},
 	{
 		"id": 218,
@@ -5057,7 +5057,7 @@
 		"species": "Koala",
 		"gender": "Female",
 		"catch-phrase": "tsktsk",
-		"tier":"5"
+		"tier":"6"
 	},
 	{
 		"id": 221,
@@ -5080,7 +5080,7 @@
 		"species": "Koala",
 		"gender": "Female",
 		"catch-phrase": "guvnor",
-		"tier":"5"
+		"tier":"4"
 	},
 	{
 		"id": 222,
@@ -5103,7 +5103,7 @@
 		"species": "Koala",
 		"gender": "Female",
 		"catch-phrase": "toasty",
-		"tier":"2"
+		"tier":"3"
 	},
 	{
 		"id": 223,
@@ -5172,7 +5172,7 @@
 		"species": "Koala",
 		"gender": "Male",
 		"catch-phrase": "ol'bear",
-		"tier":"3"
+		"tier":"4"
 	},
 	{
 		"id": 226,
@@ -5218,7 +5218,7 @@
 		"species": "Koala",
 		"gender": "Male",
 		"catch-phrase": "chips",
-		"tier":"3"
+		"tier":"4"
 	},
 	{
 		"id": 228,
@@ -5425,7 +5425,7 @@
 		"species": "Kangaroo",
 		"gender": "Female",
 		"catch-phrase": "pouches",
-		"tier":"6"
+		"tier":"5"
 	},
 	{
 		"id": 237,
@@ -5471,7 +5471,7 @@
 		"species": "Lion",
 		"gender": "Male",
 		"catch-phrase": "unh-hunh",
-		"tier":"6"
+		"tier":"5"
 	},
 	{
 		"id": 239,
@@ -5908,7 +5908,7 @@
 		"species": "Mouse",
 		"gender": "Male",
 		"catch-phrase": "ace",
-		"tier":"6"
+		"tier":"5"
 	},
 	{
 		"id": 258,
@@ -6138,7 +6138,7 @@
 		"species": "Octopus",
 		"gender": "Male",
 		"catch-phrase": "sucker",
-		"tier":"3"
+		"tier":"2"
 	},
 	{
 		"id": 268,
@@ -6391,7 +6391,7 @@
 		"species": "Ostrich",
 		"gender": "Female",
 		"catch-phrase": "pinky",
-		"tier":"5"
+		"tier":"2"
 	},
 	{
 		"id": 279,
@@ -6414,7 +6414,7 @@
 		"species": "Ostrich",
 		"gender": "Female",
 		"catch-phrase": "sparky",
-		"tier":"3"
+		"tier":"4"
 	},
 	{
 		"id": 280,
@@ -6460,7 +6460,7 @@
 		"species": "Eagle",
 		"gender": "Female",
 		"catch-phrase": "cuz",
-		"tier":"6"
+		"tier":"5"
 	},
 	{
 		"id": 282,
@@ -6529,7 +6529,7 @@
 		"species": "Eagle",
 		"gender": "Male",
 		"catch-phrase": "skree-haw",
-		"tier":"6"
+		"tier":"5"
 	},
 	{
 		"id": 285,
@@ -6575,7 +6575,7 @@
 		"species": "Eagle",
 		"gender": "Male",
 		"catch-phrase": "skraaaaw",
-		"tier":"4"
+		"tier":"5"
 	},
 	{
 		"id": 287,
@@ -6597,8 +6597,8 @@
 		"birthday": "1/6",
 		"species": "Eagle",
 		"gender": "Male",
-		"catch-phrase": "wingo",
-		"tier":"6"
+		"catch-phrase" "wingo",
+		"tier":"5"
 	},
 	{
 		"id": 288,
@@ -6621,7 +6621,7 @@
 		"species": "Eagle",
 		"gender": "Female",
 		"catch-phrase": "feathers",
-		"tier":"4"
+		"tier":"5"
 	},
 	{
 		"id": 289,
@@ -6644,7 +6644,7 @@
 		"species": "Penguin",
 		"gender": "Female",
 		"catch-phrase": "b-b-baby",
-		"tier":"3"
+		"tier":"2"
 	},
 	{
 		"id": 290,
@@ -6667,7 +6667,7 @@
 		"species": "Penguin",
 		"gender": "Male",
 		"catch-phrase": "b-b-buddy",
-		"tier":"3"
+		"tier":"1"
 	},
 	{
 		"id": 291,
@@ -6782,7 +6782,7 @@
 		"species": "Penguin",
 		"gender": "Male",
 		"catch-phrase": "brrrrrrrrr",
-		"tier":"5"
+		"tier":"6"
 	},
 	{
 		"id": 296,
@@ -7219,7 +7219,7 @@
 		"species": "Pig",
 		"gender": "Male",
 		"catch-phrase": "weeweewee",
-		"tier":"5"
+		"tier":"6"
 	},
 	{
 		"id": 315,
@@ -7265,7 +7265,7 @@
 		"species": "Pig",
 		"gender": "Female",
 		"catch-phrase": "snuf e",
-		"tier":"5"
+		"tier":"3"
 	},
 	{
 		"id": 317,
@@ -7288,7 +7288,7 @@
 		"species": "Rabbit",
 		"gender": "Female",
 		"catch-phrase": "tee-hee",
-		"tier":"3"
+		"tier":"4"
 	},
 	{
 		"id": 318,
@@ -7334,7 +7334,7 @@
 		"species": "Rabbit",
 		"gender": "Female",
 		"catch-phrase": "doyoing",
-		"tier":"1"
+		"tier":"2"
 	},
 	{
 		"id": 320,
@@ -7357,7 +7357,7 @@
 		"species": "Rabbit",
 		"gender": "Male",
 		"catch-phrase": "bunyip",
-		"tier":"3"
+		"tier":"4"
 	},
 	{
 		"id": 321,
@@ -7380,7 +7380,7 @@
 		"species": "Rabbit",
 		"gender": "Male",
 		"catch-phrase": "monchou",
-		"tier":"5"
+		"tier":"6"
 	},
 	{
 		"id": 322,
@@ -7495,7 +7495,7 @@
 		"species": "Rabbit",
 		"gender": "Female",
 		"catch-phrase": "li'lears",
-		"tier":"4"
+		"tier":"3"
 	},
 	{
 		"id": 327,
@@ -7564,7 +7564,7 @@
 		"species": "Rabbit",
 		"gender": "Female",
 		"catch-phrase": "karat",
-		"tier":"5s"
+		"tier":"4"
 	},
 	{
 		"id": 330,
@@ -7587,7 +7587,7 @@
 		"species": "Rabbit",
 		"gender": "Female",
 		"catch-phrase": "sparkles",
-		"tier":"4"
+		"tier":"3"
 	},
 	{
 		"id": 331,
@@ -7656,7 +7656,7 @@
 		"species": "Rabbit",
 		"gender": "Female",
 		"catch-phrase": "nougat",
-		"tier":"4"
+		"tier":"5"
 	},
 	{
 		"id": 334,
@@ -7679,7 +7679,7 @@
 		"species": "Rabbit",
 		"gender": "Female",
 		"catch-phrase": "deelish",
-		"tier":"5"
+		"tier":"6"
 	},
 	{
 		"id": 335,
@@ -7794,7 +7794,7 @@
 		"species": "Rhino",
 		"gender": "Male",
 		"catch-phrase": "punk",
-		"tier":"5"
+		"tier":"6"
 	},
 	{
 		"id": 340,
@@ -7863,7 +7863,7 @@
 		"species": "Rhino",
 		"gender": "Female",
 		"catch-phrase": "yoyoyo",
-		"tier":"6"
+		"tier":"5"
 	},
 	{
 		"id": 343,
@@ -8070,7 +8070,7 @@
 		"species": "Sheep",
 		"gender": "Female",
 		"catch-phrase": "pinenut",
-		"tier":"5"
+		"tier":"6"
 	},
 	{
 		"id": 352,
@@ -8162,7 +8162,7 @@
 		"species": "Sheep",
 		"gender": "Male",
 		"catch-phrase": "indeedaroo",
-		"tier":"2"
+		"tier":"1"
 	},
 	{
 		"id": 356,
@@ -8300,7 +8300,7 @@
 		"species": "Squirrel",
 		"gender": "Female",
 		"catch-phrase": "sidekick",
-		"tier":"5"
+		"tier":"4"
 	},
 	{
 		"id": 362,
@@ -8346,7 +8346,7 @@
 		"species": "Squirrel",
 		"gender": "Female",
 		"catch-phrase": "nutmeg",
-		"tier":"6"
+		"tier":"5"
 	},
 	{
 		"id": 364,
@@ -8461,7 +8461,7 @@
 		"species": "Squirrel",
 		"gender": "Female",
 		"catch-phrase": "nicenice",
-		"tier":"4"
+		"tier":"5"
 	},
 	{
 		"id": 369,
@@ -8484,7 +8484,7 @@
 		"species": "Squirrel",
 		"gender": "Female",
 		"catch-phrase": "hubbub",
-		"tier":"5"
+		"tier":"4"
 	},
 	{
 		"id": 370,
@@ -8507,7 +8507,7 @@
 		"species": "Squirrel",
 		"gender": "Female",
 		"catch-phrase": "nutty",
-		"tier":"3"
+		"tier":"2"
 	},
 	{
 		"id": 371,
@@ -8645,7 +8645,7 @@
 		"species": "Tiger",
 		"gender": "Male",
 		"catch-phrase": "grrrRAH",
-		"tier":"6"
+		"tier":"5"
 	},
 	{
 		"id": 377,
@@ -8691,7 +8691,7 @@
 		"species": "Tiger",
 		"gender": "Male",
 		"catch-phrase": "flexin'",
-		"tier":"5"
+		"tier":"6"
 	},
 	{
 		"id": 379,
@@ -8737,7 +8737,7 @@
 		"species": "Tiger",
 		"gender": "Female",
 		"catch-phrase": "glimmer",
-		"tier":"4"
+		"tier":"3"
 	},
 	{
 		"id": 381,
@@ -8806,7 +8806,7 @@
 		"species": "Wolf",
 		"gender": "Male",
 		"catch-phrase": "snarrrl",
-		"tier":"5"
+		"tier":"3"
 	},
 	{
 		"id": 384,
@@ -8852,7 +8852,7 @@
 		"species": "Wolf",
 		"gender": "Male",
 		"catch-phrase": "ohmmm",
-		"tier":"4"
+		"tier":"3"
 	},
 	{
 		"id": 386,

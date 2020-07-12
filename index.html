@@ -21,6 +21,7 @@
 		<h1>sheepover's villager finder</h1>
 		
 		<h2>pinned villagers</h2>
+		<a href="javascript:void(0)" class="btn btn-condense">Condense</a>
 		<div id="bank"></div>
 		
 		<h2>all villagers</h2>
@@ -262,6 +263,33 @@
 		        toGrid.removeRow($(e.currentTarget).closest("tr"));
 				toGrid.refresh();
             }
+			
+			
+			$('.btn-condense').click(function(){
+				if( $('#bank').hasClass('grid-condensed') ) {
+					$('#bank').removeClass('grid-condensed');
+					$('.btn-condense').text('Condense');
+				} else {
+					$('#bank').addClass('grid-condensed');
+					$('.btn-condense').text('Expand');
+				}
+			});
+			
+			
+		    var stickyTop = $('.k-grid').offset().top;
+
+		    $(window).scroll(function() {
+		      var windowTop = $(window).scrollTop();
+		      if (stickyTop < windowTop) {
+  		        $('.grid-condensed').addClass('grid-fixed');
+		      } else {
+		        $('.grid-condensed').removeClass('grid-fixed');
+		      }
+		    });
+		  
+			
+			
+			
 			
         });
     	</script>

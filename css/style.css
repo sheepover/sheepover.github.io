@@ -25,7 +25,7 @@
     }
 	
 	h1 { margin:30px 0; color:#ffa9aa; text-align:center; }
-	h2 { color:#777; text-transform:uppercase; font-size:18px; }
+	h2 { color:#777; text-transform:uppercase; font-size:18px; float:left; }
 				
 	.k-button-icon,
 	.k-split-button-arrow { padding:0; }
@@ -38,6 +38,7 @@
 	
 	main { max-width:1100px;  margin:0 auto; }
 	
+	.k-grid { clear:both; }
 	.k-grid td:first-child img { display:block; margin:0 auto; }
 	.k-grid td[data-field="tier"] +td img { max-width:150px; display:block; margin:0 auto; }
 	
@@ -65,6 +66,24 @@
 	#bank .k-button:after { content:"\f00d"; line-height:40px; }
 	
 	.empty { padding:10px; text-align:center; width:100%; color:#999; font-style:italic; }
+	
+	
+	.btn-condense { float:right; text-decoration:none; display:block; background:#3abbcf; color:#fff; padding:5px 10px; border-radius:10px; margin-top:25px; 
+		border-bottom-left-radius:0; border-bottom-right-radius:0;
+						}
+	
+	
+	.grid-condensed .k-header { display:none; }
+	.grid-condensed td { display:none; }
+	.grid-condensed td:first-child { display:block; }
+	.grid-condensed tr { display:block; float:left; }
+	.grid-condensed tr.k-alt { background:#fff; }
+	.grid-condensed col { display:none; }
+
+
+	.grid-fixed { position:fixed; top:-1px; z-index:2; max-width:1100px; }
+	.grid-fixed + h2 { margin-top:200px; clear:both; }
+
 	
 	
 	/* todo list 
