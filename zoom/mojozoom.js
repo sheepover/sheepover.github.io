@@ -85,7 +85,7 @@ var MojoZoom = (function() {
 		var oldParent = img.parentNode;
 		if (oldParent.nodeName != "A") {
 			var linkParent = dc("a");
-			linkParent.setAttribute("href", zoomSrc);
+			linkParent.setAttribute("href", "#");
 			oldParent.replaceChild(linkParent, img);
 			linkParent.appendChild(img);
 		} else {
