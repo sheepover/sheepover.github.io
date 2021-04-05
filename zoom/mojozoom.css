@@ -43,7 +43,7 @@ img.mojozoom_img {
 
 div.mojozoom_imgctr {
 	position : absolute;
-	margin-left : 20px;
+	margin-left : 0;
 	border : 1px solid black;
 }
 

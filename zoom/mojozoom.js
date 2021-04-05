@@ -243,8 +243,8 @@ var MojoZoom = (function() {
 					var imgPos = getElementPos(img);
 
 					if (useDefaultCtr) {
-						zoomImgCtr.style.left = w + imgPos.x + "px";
-						zoomImgCtr.style.top = imgPos.y + "px";
+						zoomImgCtr.style.left = 110 + "px";
+						zoomImgCtr.style.top = 490 + "px";
 					}
 					ctr.style.display = "block";
 					zoomImgCtr.style.visibility = "visible";
